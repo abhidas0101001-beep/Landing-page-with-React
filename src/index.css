@@ -26,16 +26,38 @@ body {
 
 .navBar {
   height: 4rem;
-  width: auto;
+  width: 100%;
 
   color: #ebebeb;
-  background: rebeccapurple;
+  background-color: transparent;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 2rem;
+  position: absolute;
+  top: 0;
 }
 
 .navBar_logo {
   font-size: 18px;
   letter-spacing: 3px;
   font-weight: 500;
+}
+
+.navBar_links {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.navBar_links a {
+  text-decoration: none;
+  color: #ebebeb;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
 }
 
 /* Hero section 2 styling from here 👇*/
