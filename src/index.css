@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background: #eeeeee;
+  color: rgb(0, 0, 0);
+  font-family: "Poppins", sans-serif;
+}
+
+/* Hero section 1 styling from here 👇*/
+
+.section_hero1 {
+  height: 39rem;
+  width: auto;
+  background: #070707;
+  color: #ebebeb;
+}
+
+/*|__Navbar styling */
+
+.navBar {
+  height: 4rem;
+  width: auto;
+
+  color: #ebebeb;
+  background: rebeccapurple;
+}
+
+.navBar_logo {
+  font-size: 18px;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+
+/* Hero section 2 styling from here 👇*/
+
+.section_hero2 {
+  height: 37rem;
+  width: auto;
+  background-color: #ebebeb;
+}
+
+/* Services section start from here 👇*/
+
+.section_services {
+  height: 37rem;
+  width: auto;
+  background-color: #070707;
+}
+
+/* Projects sections starts from here 👇*/
+
+.section_projects {
+  height: 37rem;
+  width: auto;
+  background-color: #ebebeb;
+}
+
+/* CTA section starts from here 👇*/
+
+.section_cta {
+  height: 37rem;
+  width: auto;
+  background-color: #070707;
+}
