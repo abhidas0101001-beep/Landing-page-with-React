@@ -27,7 +27,7 @@ body {
 .navBar {
   height: 4rem;
   width: 100%;
-
+  margin-bottom: 13vh;
   color: #ebebeb;
   background-color: transparent;
 
@@ -35,8 +35,6 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 2.5rem 2rem;
-  position: absolute;
-  top: 0;
 }
 
 .navBar_logo {
@@ -58,6 +56,45 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
   transition: all 0.3s ease;
+}
+
+/* |__Hero01 section main content */
+
+.hero01_text {
+  place-items: center;
+  text-align: center;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-template-rows: minmax(24px, 1fr) 2fr 1fr;
+  gap: 4px;
+}
+
+.hero01_text-intro {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+
+  align-self: flex-end;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+.hero01_text-name {
+  grid-column: 2 / 4;
+  grid-row: 2 / 3;
+
+  font-size: clamp(60px, 10vw, 120px);
+  letter-spacing: 32px;
+  font-weight: 800;
+}
+
+.hero01_text-role {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+
+  align-self: flex-start;
+  font-size: 12px;
+  letter-spacing: 2px;
 }
 
 /* Hero section 2 styling from here 👇*/

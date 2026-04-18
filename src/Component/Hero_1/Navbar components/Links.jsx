@@ -11,7 +11,7 @@ const Links = () => {
           <a href="">About</a>
         </li>
         <li>
-          <a href="">Project</a>
+          <a href="#projects">Project</a>
         </li>
         <li>
           <a href="">Services</a>
